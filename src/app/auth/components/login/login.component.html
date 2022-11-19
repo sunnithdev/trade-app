@@ -1,0 +1,48 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Login
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content [fullscreen]="true" >
+
+  <div class="login-text m-4">
+    <h1 class="font-bold text-2xl">
+      Welcome back!
+    </h1>
+    <p class="font-light text-sm">Login with your mobile to continue access</p>
+  </div>
+
+  <ion-list class="flex-col flex justify-center items-center">
+
+    <div class="m-4">
+      <img src="assets/pngs/sammy-line-41.png" alt="">
+    </div>
+
+    <div class="text-center font-light text-sm ">
+      <p>We will send you OTP to this mobile number</p>
+    </div>
+
+    <ion-item class="m-2 mt-8">
+      <ion-label position="floating">Mobile no</ion-label>
+      <ion-input [clearInput]="true" type="number" placeholder="Mobile no"></ion-input>
+    </ion-item>
+
+    <ion-button class="w-9/12 h-12 place-self-center">Get OTP</ion-button>
+
+    <!-- <ion-item class="m-2">
+      <ion-label position="floating">Otp</ion-label>
+      <ion-input [clearInput]="true" placeholder="Otp"></ion-input>
+    </ion-item> -->
+
+    <!-- <ion-item class="flex justify-center items-center">
+      <ion-button class="w-9/12 h-12">Login</ion-button>
+    </ion-item> -->
+
+  </ion-list>
+
+
+</ion-content>

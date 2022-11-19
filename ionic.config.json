@@ -1,0 +1,7 @@
+{
+  "name": "trade-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
